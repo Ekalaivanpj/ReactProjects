@@ -9,7 +9,7 @@ const App = () => {
     return (
         <div>
             <label className="label">EnterName: </label>
-            <input style={{borderColor: 'red'}}/>
+            <input style={{borderColor: 'red'}} type="text"/>
             <button style={{backgroundColor: 'green', color: 'white', marginLeft: '5px'}}> {eka()} </button>
         </div>
     );
